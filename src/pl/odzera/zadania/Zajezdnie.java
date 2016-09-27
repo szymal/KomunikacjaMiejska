@@ -9,6 +9,16 @@ import java.util.List;
 public class Zajezdnie {
     String nazwa;
 
+    public void dodajPojazd(Pojazdy pojazdy){
+        this.listaPojazdow.add(pojazdy);
+
+    }
+
+    private List<Pojazdy> listaPojazdow = new ArrayList<>();
+
+    public List<Pojazdy> getPojazd() {
+        return listaPojazdow;
+    }
 
     public String getNazwa() {
         return nazwa;

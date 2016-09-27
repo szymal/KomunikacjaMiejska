@@ -16,6 +16,8 @@ public class Autobus extends Pojazdy {
     public void setZuzyciePaliwa(double zuzyciePaliwa) {
         this.zuzyciePaliwa = zuzyciePaliwa;
     }
+
+
     public static List<String> zajezdnia = new ArrayList<String>();
 
 

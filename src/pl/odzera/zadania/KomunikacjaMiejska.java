@@ -18,6 +18,7 @@ public class KomunikacjaMiejska {
         ZajezdniaAutobus.numerAutobusu.add(autobus.getNumber());
 
 
+
         Autobus autobus1 = new Autobus();
         autobus1.setNumber(222);
         autobus1.setZuzyciePaliwa(12.5);
@@ -35,6 +36,7 @@ public class KomunikacjaMiejska {
         autobus2.setZajezdnia("Autobusowa");
         autobus2.zajezdnia.add(autobus2.getZajezdnia());
         ZajezdniaAutobus.numerAutobusu.add(autobus2.getNumber());
+
 
 
         Tramwaj tramwaj = new Tramwaj();
@@ -56,6 +58,7 @@ public class KomunikacjaMiejska {
         System.out.println("Autobus nr. "+autobus1.getNumber()+" zużywa "+autobus1.getZuzyciePaliwa()+
                 "l/100km, jego predkość max to: " +
                 autobus1.getMaxSpeed()+"km/h i jego zajezdnia to: "+autobus1.getZajezdnia());
+
 
         System.out.println();
         System.out.println("W zajezdni: " +Tramwaj.zajezdnia.get(0)+ " są tramwaje numer: "+ZajezdniaTramwajowa.numerTramwaju);

@@ -16,5 +16,7 @@ public class Tramwaj extends Pojazdy {
     public void setIloscWagonow(int iloscWagonow) {
         this.iloscWagonow = iloscWagonow;
     }
+
+
     public static List<String> zajezdnia = new ArrayList<String>();
 }

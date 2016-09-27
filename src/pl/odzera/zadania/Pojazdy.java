@@ -1,5 +1,8 @@
 package pl.odzera.zadania;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by kamilszymczak on 22.09.2016.
  */
